@@ -9,10 +9,16 @@ class Cell{
     int row;
 
     //constructors
+<<<<<<< HEAD
     public Cell(char col, int row, int x, int y){
         super(x,y,size,size);
         this.col = col;
         this.row = row;
+=======
+    public Cell(int x, int y){
+        this.x = x;
+        this.y = y;
+>>>>>>> parent of 7e914d5... solutions to tasks 6, 7, 8, and 9
     }
 
     public Cell(int x, int y){
