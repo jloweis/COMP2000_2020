@@ -6,16 +6,21 @@ class Main extends JFrame {
     
     class App extends JPanel {
         
-        Stage stage;
+        Grid grid;
 
         public App() {
+<<<<<<< HEAD
             setPreferredSize(new Dimension(880, 720));
             stage = StageReader.readStage("data/stage1.rvb");
+=======
+            setPreferredSize(new Dimension(720, 720));
+            grid = new Grid();
+>>>>>>> parent of 7e914d5... solutions to tasks 6, 7, 8, and 9
         }
 
         @Override
         public void paint(Graphics g) {
-            stage.paint(g, getMousePosition());
+            grid.paint(g, getMousePosition());
         }
 
     }
