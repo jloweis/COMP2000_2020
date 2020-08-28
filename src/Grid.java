@@ -31,6 +31,7 @@ class Grid {
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     public Optional<Cell> cellAtColRow(char c, int r){
         int cc = labelToCol(c);
@@ -52,6 +53,8 @@ class Grid {
         return Optional.empty();
     }
 
+=======
+>>>>>>> parent of 7e914d5... solutions to tasks 6, 7, 8, and 9
 =======
 >>>>>>> parent of 7e914d5... solutions to tasks 6, 7, 8, and 9
 }
